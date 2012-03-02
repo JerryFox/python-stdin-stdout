@@ -4,4 +4,4 @@ pokus*.*
 *.ppk
 id_rsa
 id_rsa.*
-
+*.pyc
