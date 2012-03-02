@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+"""cvicny program pro praci se stdin a stdout"""
+
 import sys
 
 vstup = "xxxx"
