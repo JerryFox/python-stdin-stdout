@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-"""cvicny program pro praci se stdin a stdout"""
+"""sample of using stdin and stdout"""
 
 import sys
 
-vstup = "xxxx"
-while vstup and vstup.count("konec") == 0:
-    vstup = sys.stdin.readline()
-    ret = vstup.replace("\n","")
-    iret = ""
-    for i in ret:
-        iret = i + iret
-    sys.stdout.write(iret + "\n")
+iinput = "xxx"
+while iinput and iinput.count("end") == 0:
+    iinput = sys.stdin.readline()
+    istring = iinput.replace("\n","")   # remove EOL
+    irev_string = ""
+    for i in istring:
+        irev_string = i + irev_string
+    sys.stdout.write(irev_string + "\n")
     
     

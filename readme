@@ -1,4 +1,18 @@
-cvicny projekt
+using stdin and stdout with Python - sample project
 
-prace se standardnim vstupem a vystupem
-aby fungovalo presmerovani
+working with stdin, stdout
+using input - output redirection 
+
+!!! 
+for I/O redirection in Windows use: 
+python reverse.py
+not only: 
+reverse.py
+!!!
+http://bytes.com/topic/python/answers/45336-problem-redirecting-stdin-windows
+http://mail.python.org/pipermail/python-bugs-list/2004-August/024920.html
+
+sample of usage (win): 
+type reverse.py | python reverse.py > koko.txt
+type koko.txt | python reverse.py
+
